@@ -1,0 +1,30 @@
+{
+  "name" : "cypaubr/twitchapibundle",
+  "description" : "A helper bundle for accessing Twitch API.",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Cyprien Aubry",
+    "email" : "cyprienaubry@linkpulsion.com"
+  }],
+  "keywords" : [
+    "twitch api bundle stream live video profile"
+  ],
+  "license" : [
+    "Apache-2.0"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Cypaubr\\TwitchAPIBundle" : ""
+    }
+  },
+  "target-dir" : "Cypaubr/TwitchAPIBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "1.0-dev"
+    }
+  }
+}
