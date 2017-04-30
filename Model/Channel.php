@@ -124,7 +124,7 @@ class Channel
             throw new \Exception("Null JSON response object received.");
         }
 
-        $jsonResponseObject = json_decode($jsonResponseObject);
+        $jsonResponseObject = json_decode($jsonResponseObject,true);
         foreach ($jsonResponseObject as $field){
             $this -> $field = $jsonResponseObject[$field];
         }
